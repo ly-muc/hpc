@@ -3,7 +3,11 @@
 In this repository some projects in the context of High Performance Computing are presented. These projects include contents of the graduate level courses of the technical university of munich and école polytechnique paris. 
 
 ## Efficient Unbiased Training of Large-scale Distributed WGAN
-:key: Keywords: Distributed Data Parallel, Wasserstein GAN (WGAN), C++, CUDA, PyTorch (Cuda Backend), Open MPI, NCLL
+:key: Keywords: Distributed Data Parallel, Wasserstein GAN (WGAN)
+
+:wrench: C++, CUDA, PyTorch (Cuda Backend), Open MPI, NCLL
+
+:round_pushpin: <img src="etc/logos/epfl.svg" alt="Image" width="60" >
 
 This project considers a multi-GPU settings
 where multiple processors/workers/clients have access to local stochastic dual
@@ -16,7 +20,11 @@ convex minimization to min-max and games. Using quantized generalized extra-grad
 
 
 ## Barnsleys Fern
-:key: Keywords: OpenMP, Eigen, Barnsley's Fern
+:key: Keywords: Barnsley's Fern
+
+:wrench: OpenMP, Eigen
+
+:round_pushpin: <img src="etc/logos/tum.png" alt="Image" width="50" >
 
 
 Barnsley's fern uses four affine transformations to create the shown fern.
@@ -29,7 +37,11 @@ Barnsley's fern uses four affine transformations to create the shown fern.
 
 ## Asynchronous Value Iteration (AVI)
 
-:key: Keywords: CFFI, OpenMP, MPI, Eigen, Asynchronous Value Iteration
+:key: Keywords: Asynchronous Value Iteration
+
+:wrench: CFFI, OpenMP, MPI, Eigen 
+
+:round_pushpin: <img src="etc/logos/tum.png" alt="Image" width="50" >
 
 The core of the project is a stochastic navigation task. The agent jumps between stars consuming fuel affecting the jump range. Certain stars allow refueling. A specific target star has to be reached in an optimal way.
 
@@ -59,8 +71,11 @@ This project:
 
 ## N body simulation 
 
-:key: Keywords: OpenMP, MPI, CUDA, Barnes-Hut
+:key: Keywords: Barnes-Hut
 
+:wrench: OpenMP, MPI, CUDA
+
+:round_pushpin: <img src="etc/logos/lx_paris2.png" alt="Image" width="100" >
 
 In the particle interaction simulation positions of all particles are advanced in each iteration by
 applying gravitational force acting on each particle and solving differential equation of motion
