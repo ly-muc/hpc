@@ -5,7 +5,7 @@ In this repository some projects in the context of High Performance Computing ar
 ## Efficient Unbiased Training of Large-scale Distributed WGAN
 :key: Keywords: Distributed Data Parallel, Wasserstein GAN (WGAN)
 
-:wrench: C++, CUDA, PyTorch (Cuda Backend), Open MPI, NCLL
+:wrench: C++, CUDA, PyTorch (Cuda Backend), Open MPI, NCCL
 
 :round_pushpin: <img src="etc/logos/epfl.svg" alt="Image" width="60" >
 
