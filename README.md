@@ -2,6 +2,19 @@
 
 In this repository some projects in the context of High Performance Computing are presented. These projects include contents of the graduate level courses of the technical university of munich and école polytechnique paris. 
 
+## Efficient Unbiased Training of Large-scale Distributed WGAN
+:key: Keywords: Distributed Data Parallel, Wasserstein GAN (WGAN), C++, CUDA, PyTorch (Cuda Backend), Open MPI, NCLL
+
+This project considers a multi-GPU settings
+where multiple processors/workers/clients have access to local stochastic dual
+vectors. This setting includes a broad range of important problems from distributed
+convex minimization to min-max and games. Using quantized generalized extra-gradient (Q-GenX) the given monotone variational inequality problem (WGAN) can be solved. This work contributed to [Distributed Extra-Gradient with Optimal Complexity and Communication Guarantees, ICLR23](https://infoscience.epfl.ch/record/300852).
+
+<p align="center">
+<img src="etc/wgan.png" alt="wgan" width="600"/>
+</p>
+
+
 ## Barnsleys Fern
 :key: Keywords: OpenMP, Eigen, Barnsley's Fern
 
